@@ -6,12 +6,14 @@ sample
 (i) channels:
 
 
-                    channels contains features that features was extracted by using kernels in every convolution layer. Channels are input/output.
+ channels contains features that features was extracted by using kernels in every convolution layer. Channels are input/output.
+ 
 (ii) kernels:
 
 
-                    kernels help to extract the features from channels.Kernels are used for blurring,edge detection and more.
-                    Kernel = filters = feature detector
+   kernels help to extract the features from channels.Kernels are used for blurring,edge detection and more.
+   
+    Kernel = filters = feature detector
  
 2. we (nearly) always use 3x3 kernels.
 
@@ -37,7 +39,7 @@ In 3x3 has starting ,centre and ending too.
 
 3. How many times to we need to perform 3x3 convolutions operations to reach close to 1x1 from 199x199 ?
 
-           we need to perform 100 3x3 convolution operation to reach close to 1x1 from 199x199
+ we need to perform 100 3x3 convolution operation to reach close to 1x1 from 199x199
            
 199 x 199 > 197 x 197
 197 x 197 > 195 x 195
@@ -142,19 +144,19 @@ In 3x3 has starting ,centre and ending too.
 4. kernels initialized:
 
 
-                         Kernels are initialized randomly. We generally use 3x3 kernels . A 3x3 Kernel has 9 random values which it is initialized.
+   Kernels are initialized randomly. We generally use 3x3 kernels . A 3x3 Kernel has 9 random values which it is initialized.
                          
-         Each kernel is initialized by the random values. That 9 random values are multiple with the each pixel of input image .
+   Each kernel is initialized by the random values. That 9 random values are multiple with the each pixel of input image .
          
-        Y= (W1xA1)+(W2xA2)+(W3xA3)+.........+(W9xA9)
+   Y= (W1xA1)+(W2xA2)+(W3xA3)+.........+(W9xA9)
         
-          W=parameter in kernel
+    W=parameter in kernel
           
-           A=Pixel in input image
+     A=Pixel in input image
  
 5. The training of a DNN:
 
-               During training of Deep neural network. From the input image the kernel will extract the features and the features goes
+  During training of Deep neural network. From the input image the kernel will extract the features and the features goes
                
 to the convolution layer and activation function takes place like Rectified linear unit(ReLU) y=max(0,x)  . The value which are less
 
