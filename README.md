@@ -1,9 +1,15 @@
 # samplegit
 sample
 1. channels and kernels:
+
+
 (i) channels:
+
+
                     channels contains features that features was extracted by using kernels in every convolution layer. Channels are input/output.
 (ii) kernels:
+
+
                     kernels help to extract the features from channels.Kernels are used for blurring,edge detection and more.
                     Kernel = filters = feature detector
  
@@ -15,16 +21,24 @@ sample
 
 
  kernels has parameter. If we use large number parameter the network will be slow and the training process is longer.
+ 
 It takes more RAM too.
+
 If we use less number of parameters the network will fast and training process is easy.
+
 So, We use 3x3  kernel which has 9 parameters.
+
  2x2 kernel has 4 parameters but we can't detect edges .
+ 
 In 2x2 only starting and ending we can detect the centre we can't detect .
+
 In 3x3 has starting ,centre and ending too.
  
 
 3. How many times to we need to perform 3x3 convolutions operations to reach close to 1x1 from 199x199 ?
+
            we need to perform 100 3x3 convolution operation to reach close to 1x1 from 199x199
+           
 199 x 199 > 197 x 197
 197 x 197 > 195 x 195
 195 x 195 > 193 x 193
@@ -126,13 +140,30 @@ In 3x3 has starting ,centre and ending too.
 3 x 3 > 1 x 1
  
 4. kernels initialized:
+
+
                          Kernels are initialized randomly. We generally use 3x3 kernels . A 3x3 Kernel has 9 random values which it is initialized.
+                         
          Each kernel is initialized by the random values. That 9 random values are multiple with the each pixel of input image .
+         
         Y= (W1xA1)+(W2xA2)+(W3xA3)+.........+(W9xA9)
+        
           W=parameter in kernel
+          
            A=Pixel in input image
  
 5. The training of a DNN:
-               During training of Deep neural network. From the input image the kernel will extract the features and the features goes to the convolution layer and activation function takes place like Rectified linear unit(ReLU) y=max(0,x)  . The value which are less (or) equal to zero will represent it as zero . Which are more than zero will represent as same value. During (ReLU) no negative values will present. Same process will take place in next layer and it is known as forward propagation . We get output for input image . If the output is wrong  back propagation takes place and correct the error  by updating the parameters of kernel and do forward propagation and see the output . If the output is not correct we need to do back propagation again until the output is correct .                         
+
+               During training of Deep neural network. From the input image the kernel will extract the features and the features goes
+               
+to the convolution layer and activation function takes place like Rectified linear unit(ReLU) y=max(0,x)  . The value which are less
+
+(or) equal to zero will represent it as zero . Which are more than zero will represent as same value. During (ReLU) no negative values 
+
+will present. Same process will take place in next layer and it is known as forward propagation . We get output for input image . If the 
+
+output is wrong  back propagation takes place and correct the error  by updating the parameters of kernel and do forward propagation and 
+
+see the output . If the output is not correct we need to do back propagation again until the output is correct .                         
  
  
