@@ -8,6 +8,12 @@ sample
                     Kernel = filters = feature detector
  
 2. we (nearly) always use 3x3 kernels.
+
+
+
+
+
+
  kernels has parameter. If we use large number parameter the network will be slow and the training process is longer.
 It takes more RAM too.
 If we use less number of parameters the network will fast and training process is easy.
