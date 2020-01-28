@@ -35,6 +35,8 @@ So, We use 3x3  kernel which has 9 parameters.
 In 2x2 only starting and ending we can detect the centre we can't detect .
 
 In 3x3 has starting ,centre and ending too.
+
+
  
 
 3. How many times to we need to perform 3x3 convolutions operations to reach close to 1x1 from 199x199 ?
@@ -156,16 +158,7 @@ In 3x3 has starting ,centre and ending too.
  
 5. The training of a DNN:
 
-  During training of Deep neural network. From the input image the kernel will extract the features and the features goes
-               
-to the convolution layer and activation function takes place like Rectified linear unit(ReLU) y=max(0,x)  . The value which are less
-
-(or) equal to zero will represent it as zero . Which are more than zero will represent as same value. During (ReLU) no negative values 
-
-will present. Same process will take place in next layer and it is known as forward propagation . We get output for input image . If the 
-
-output is wrong  back propagation takes place and correct the error  by updating the parameters of kernel and do forward propagation and 
-
+During training of Deep neural network. From the input image the kernel will extract the features and the features goes to the convolution layer and activation function takes place like Rectified linear unit(ReLU) y=max(0,x)  . The value which are less (or) equal to zero will represent it as zero . Which are more than zero will represent as same value. During (ReLU) no negative values will present. Same process will take place in next layer and it is known as forward propagation . We get output for input image . If the output is wrong  back propagation takes place and correct the error  by updating the parameters of kernel and do forward propagation and 
 see the output . If the output is not correct we need to do back propagation again until the output is correct .                         
  
  
