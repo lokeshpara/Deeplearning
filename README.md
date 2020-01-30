@@ -14,7 +14,7 @@
    
     Kernel = filters = feature detector
  
-2. we (nearly) always use 3x3 kernels.
+# 2. we (nearly) always use 3x3 kernels.
 
 
 
@@ -38,7 +38,7 @@ In 3x3 has starting ,centre and ending too.
 
  
 
-3. How many times to we need to perform 3x3 convolutions operations to reach close to 1x1 from 199x199 ?
+# 3. How many times to we need to perform 3x3 convolutions operations to reach close to 1x1 from 199x199 ?
 
  we need to perform 100 3x3 convolution operation to reach close to 1x1 from 199x199
            
@@ -240,7 +240,7 @@ In 3x3 has starting ,centre and ending too.
 
 3 x 3 > 1 x 1
 
-4. kernels initialized:
+# 4. kernels initialized:
 
 
    Kernels are initialized randomly. We generally use 3x3 kernels . A 3x3 Kernel has 9 random values which it is initialized.
@@ -253,7 +253,7 @@ In 3x3 has starting ,centre and ending too.
           
      A=Pixel in input image
  
-5. The training of a DNN:
+# 5. The training of a DNN:
 
 During training of Deep neural network. From the input image the kernel will extract the features and the features goes to the convolution layer and activation function takes place like Rectified linear unit(ReLU) y=max(0,x)  . The value which are less (or) equal to zero will represent it as zero . Which are more than zero will represent as same value. During (ReLU) no negative values will present. Same process will take place in next layer and it is known as forward propagation . We get output for input image . If the output is wrong  back propagation takes place and correct the error  by updating the parameters of kernel and do forward propagation and 
 see the output . If the output is not correct we need to do back propagation again until the output is correct .                         
