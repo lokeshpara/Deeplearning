@@ -14,7 +14,7 @@
    
     Kernel = filters = feature detector
  
-# 2. we (nearly) always use 3x3 kernels.
+# 2. we (nearly) always use 3x3 kernels:
 
 
 
@@ -38,7 +38,7 @@ In 3x3 has starting ,centre and ending too.
 
  
 
-# 3. How many times to we need to perform 3x3 convolutions operations to reach close to 1x1 from 199x199 ?
+# 3. How many times to we need to perform 3x3 convolutions operations to reach close to 1x1 from 199x199 
 
  we need to perform 100 3x3 convolution operation to reach close to 1x1 from 199x199
            
