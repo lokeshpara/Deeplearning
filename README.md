@@ -1,4 +1,4 @@
-# samplegit
+# sample github
 sample
 1. channels and kernels:
 
