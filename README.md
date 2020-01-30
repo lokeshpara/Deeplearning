@@ -1,14 +1,13 @@
 # sample github
-sample
-1. channels and kernels:
+# 1. channels and kernels:
 
 
-(i) channels:
+## (i) channels:
 
 
  channels contains features that features was extracted by using kernels in every convolution layer. Channels are input/output.
  
-(ii) kernels:
+## (ii) kernels:
 
 
    kernels help to extract the features from channels.Kernels are used for blurring,edge detection and more.
