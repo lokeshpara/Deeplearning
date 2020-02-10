@@ -5,12 +5,12 @@
 ## (i) channels:
 
 
- channels contains features that features was extracted by using kernels in every convolution layer. Channels are input/output.
+ channels contains features that features was extracted by using kernels in every convolution layer . Channels are input/output.
  
 ## (ii) kernels:
 
 
-   kernels help to extract the features from channels.Kernels are used for blurring,edge detection and more.
+   kernels help to extract the features from channels . Kernels are used for blurring,edge detection and more.
    
     Kernel = filters = feature detector
  
@@ -21,7 +21,7 @@
 
 
 
- kernels has parameter. If we use large number parameter the network will be slow and the training process is longer.
+ kernels has parameter . If we use large number parameter the network will be slow and the training process is longer.
  
 It takes more RAM too.
 
@@ -243,9 +243,9 @@ In 3x3 has starting ,centre and ending too.
 # 4. kernels initialized:
 
 
-   Kernels are initialized randomly. We generally use 3x3 kernels . A 3x3 Kernel has 9 random values which it is initialized.
+   Kernels are initialized randomly . We generally use 3x3 kernels . A 3x3 Kernel has 9 random values which it is initialized.
                          
-   Each kernel is initialized by the random values. That 9 random values are multiple with the each pixel of input image .
+   Each kernel is initialized by the random values . That 9 random values are multiple with the each pixel of input image .
          
    Y= (W1xA1)+(W2xA2)+(W3xA3)+.........+(W9xA9)
         
