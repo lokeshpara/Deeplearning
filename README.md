@@ -10,11 +10,13 @@
 
 ### I used only one maxpooling
 
-### After last convolution layer . I used Gobal average pooling , view and log_softmax .
+### After last convolution layer . I used Gobal average pooling , view and log_softmax.
+
+### I used 20 epoches.
 
 ### Tatol parameters:12,400
 
-### I got accuracy: 99.40 at last epoch 
+### I got accuracy: 99.40 at last epoch.
 
 
 
