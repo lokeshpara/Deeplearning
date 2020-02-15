@@ -3,10 +3,10 @@
 ### I used 7 convolution layer.
 
 ### I followed like below in every convolution layer (except at 1x1 convolution layer and last convolution layer).
-###     convolution
-###     Relu
-###     Batchnorm
-###     droupout 
+###     .convolution
+###     .Relu
+###     .Batchnorm
+###     .droupout 
 
 ### I used one 1x1 convolution layer.
 
