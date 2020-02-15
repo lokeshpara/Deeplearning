@@ -2,13 +2,15 @@
 
 ### I used 7 convolution layer.
 
-### I followed like below in every convoltion layer (except in 1x1 kernel convoltion)
-###    convolution
-###    Relu
-###    Batchnorm
-###    droupout    
+### I followed like below in every convolution layer (except at 1x1 convolution layer and last convolution layer).
+###     convolution
+###     Relu
+###     Batchnorm
+###     droupout 
 
-### I used only one maxpooling
+### I used one 1x1 convolution layer.
+
+### I used only one maxpooling.
 
 ### After last convolution layer . I used Gobal average pooling , view and log_softmax.
 
