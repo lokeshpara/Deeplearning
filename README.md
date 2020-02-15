@@ -16,7 +16,7 @@
 
 ### I used 20 epoches.
 
-### Tatol parameters:12,400
+### Total parameters:12,400
 
 ### I got accuracy: 99.40 at last epoch.
 
