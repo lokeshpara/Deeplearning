@@ -10,6 +10,8 @@
 
 ### I used one 1x1 convolution layer.
 
+### I didn't use bias
+
 ### I used only one maxpooling.
 
 ### After last convolution layer . I used Gobal average pooling , view and log_softmax.
