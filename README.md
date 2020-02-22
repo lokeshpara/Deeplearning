@@ -5,7 +5,7 @@
    ### 2.Add ReLU and BatchNorm in every convolution layer except at last before o/p layer.
    ### 3.Make the model lighter.
    ### 4.Add maxpooling at RF:5(by seeing image)
-   ### 4.Add Gobal average pooling.
+   ### 5.Add Gobal average pooling.
 
 ## Result:
    ### 1.Parameters:7,600
@@ -20,18 +20,18 @@
 # Module 2:
 
 ## Target:
-  ### 1.Add Regulartion-droupout.
-  ### 2.Add Droupout to each layer.
+  ### 1.Add Regularization-dropout.
+  ### 2.Add Dropout to each layer.
 
 ## Result:
-   ### 1.Parameter:7,600
+   ### 1.Parameters:7,600
    ### 2.Best train accuracy:98.34
-   ### 3.best test accuracy:99.02(14th epoch)
+   ### 3.Best test accuracy:99.02(14th epoch)
 
 ## Analysis:
    ### 1.The model is not over-fitting.
    ### 2.The model is under fitting because we using droupout to every layer and making model to train hard.
-   ### 2.Add a 1x1 conv layer after Gobal average pooling. Adding dense layer after GAP 
+   ### 3.Add a 1x1 conv layer after Gobal average pooling. Adding dense layer after GAP 
    
 # Module 3:
 
@@ -63,12 +63,12 @@
 ## Analysis:
    ### 1.we got test accuracy: 99.47 and 99.45 (17th and 19th epoch).
    ### 2.the model is not over fitting .
-   ### 3.By seeing images all numbers are not in same shape.so,Add rotation
+   ### 3.By seeing images all numbers are not in same shape.so,Add RandomRotation
    
 # Module 5:
 
 ## Target:
-   ### 1.Add rotation 
+   ### 1.Add RandomRotation 
 
 ## Result:
   ### 1.Parameters:9,980
