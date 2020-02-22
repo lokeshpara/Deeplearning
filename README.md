@@ -31,7 +31,7 @@
 ## Analysis:
    ### 1.The model is not over-fitting.
    ### 2.The model is under fitting because we using droupout to every layer and making model to train hard.
-   ### 2.Add a layer after Gobal average pooling.
+   ### 2.Add a 1x1 conv layer after Gobal average pooling. Adding dense layer after GAP 
    
 # Module 3:
 
