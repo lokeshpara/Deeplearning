@@ -30,14 +30,14 @@
 
 ## Analysis:
    ### 1.The model is not over-fitting.
-   ### 2.The model is under fitting because we using droupout to every layer and making model to train hard.
-   ### 3.Add a 1x1 conv layer after Gobal average pooling. Adding dense layer after GAP 
+   ### 2.The model is under fitting because we using dropout to every layer and making model to train hard.
+   ### 3.Add a 1x1 conv layer after Global average pooling. Adding dense layer after GAP 
    
 # Module 3:
 
 ## Target:
    ### 1.Increase capacity of model.
-   ### 2.Add a layer after Gobal average pooling
+   ### 2.Add a layer after Global average pooling
 
 ## Result:
    ### 1.Parameters:9,660
