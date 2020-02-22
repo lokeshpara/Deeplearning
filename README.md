@@ -19,7 +19,7 @@
 
 # Module 2:
 
-## Traget:
+## Target:
   ### 1.Add Regulartion-droupout.
   ### 2.Add Droupout to each layer.
 
