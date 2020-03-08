@@ -6,5 +6,4 @@
   ## 4.Use Depthwise Separable Convolution.
   ## 5.Use Dilated Convolution.
 
-   ## google colab link:  
-     https://colab.research.google.com/drive/114lgbuzXJmBVDWk1L9c6SEC8zGKvP7nZ
+     
