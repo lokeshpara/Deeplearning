@@ -1,15 +1,13 @@
 ## ASSIGNMENT - 8
-## 1.Go through this repository: https://github.com/kuangliu/pytorch-cifar (Links to an external site.)
-## 2.Extract the ResNet18 model from this repository and add it to your API/repo.
-## 3.Use your data loader, model loading, train, and test code to train ResNet18 on Cifar10
-## 4.Your Target is 85% accuracy.
+#### 1.Go through this repository: https://github.com/kuangliu/pytorch-cifar (Links to an external site.)
+#### 2.Extract the ResNet18 model from this repository and add it to your API/repo.
+#### 3.Use your data loader, model loading, train, and test code to train ResNet18 on Cifar10
+#### 4.Your Target is 85% accuracy.
 
-## Best test accuracy : 87.66(46th epoch)
+### Best test accuracy : 87.66(46th epoch)
 
 
-
-  0%|          | 0/391 [00:00<?, ?it/s]
-Epoch: 0
+  0%|          | 0/391 [00:00<?, ?it/s]Epoch: 0
 Loss=1.2364578247070312 Batch_id=390 Accuracy=39.82: 100%|██████████| 391/391 [00:29<00:00, 14.28it/s]
   0%|          | 0/391 [00:00<?, ?it/s]
 Test set: Average loss: 1.2992, Accuracy: 5198/10000 (51.98%)
@@ -256,4 +254,5 @@ Test set: Average loss: 0.7614, Accuracy: 8746/10000 (87.46%)
 
 Epoch: 49
 Loss=0.0006007671472616494 Batch_id=390 Accuracy=99.89: 100%|██████████| 391/391 [00:29<00:00, 14.43it/s]
+
 Test set: Average loss: 0.7715, Accuracy: 8731/10000 (87.31%)
