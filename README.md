@@ -8,8 +8,15 @@
 
 ### Best Test accuracy: 90.71(49th epoch)
 
+Epoch: 49
+Epoch= 49 Loss=0.27390652894973755 Batch_id=781 Accuracy=92.45: 100%|██████████| 782/782 [00:32<00:00, 23.98it/s]
+
+Test set: Average loss: 0.0046, Accuracy: 9071/10000 (90.71%)
+
 ## Data Augmentation
    ### HorizontalFlip
    ### RandomRotate90
    ### Rotate
    ### Cutout
+   
+   
